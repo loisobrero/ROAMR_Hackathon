@@ -10,31 +10,50 @@
     <!-- Top menu -->
     <nav class="top-menu">
         <ul>
-            <li><a href="#signin">Sign In / Create an Account</a></li>
-            <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#suggestions">Suggestions</a></li>
-            <li><a href="#contactus">Contact Us</a></li>
+            <li><a href="pages/signin.html">Sign In / Create an Account</a></li>
+            <li><a href="pages/aboutus.html">About Us</a></li>
+            <li><a href="pages/suggestions.html">Suggestions</a></li>
+            <li><a href="pages/contactus.html">Contact Us</a></li>
         </ul>
     </nav>
 
     <!-- Onboarding Page -->
-    <section class="onboarding">
-        <h1>Welcome to Roamr</h1>
-        <p>
-            Roamr is your travel companion, making it easy to communicate in different languages while exploring new countries.
-        </p>
-
-        <h2>Select Your Preferred Language</h2>
-        <div class="language-options">
-            <label for="language-select">Choose a language:</label>
-            <select id="language-select">
-                <option value="english">English</option>
-                <option value="spanish">Spanish</option>
-                <option value="french">French</option>
-                <option value="german">German</option>
-                <option value="chinese">Chinese</option>
-            </select>
+    <section class="neutral-section">
+        <div class="title-description">
+            <h1>Welcome to Roamr</h1>
+            <p>
+                Welcome to Roamr, the ultimate travel companion that unlocks a world of seamless communication, making your journeys across the globe a breeze.        </p>
+    
+     <!-- Language Carousel section -->
+<section class="language-carousel">
+    <h2>Select Your Preferred Language</h2>
+    <div class="owl-carousel">
+        <div class="language-option">
+            <img src="images/english_flag.png" alt="English">
+            <p>English</p>
         </div>
+        <div class="language-option">
+            <img src="images/mexico_flag.png" alt="Spanish">
+            <p>Spanish</p>
+        </div>
+        <div class="language-option">
+            <img src="images/french_flag.png" alt="French">
+            <p>French</p>
+        </div>
+        <div class="language-option">
+            <img src="images/german_flag.png" alt="German">
+            <p>German</p>
+        </div>
+        <div class="language-option">
+            <img src="images/chinese_flag.webp" alt="Chinese">
+            <p>Chinese</p>
+        </div>
+        <!-- Add more language options here -->
+    </div>
+</section>
+
+        <!-- "Sign In" button with an id for JavaScript targeting -->
+        <button id="sign-in-button">Sign In / Create an Account</button>
 
         <!-- Add JavaScript to handle language selection -->
         <script src="scripts/script.js"></script>
