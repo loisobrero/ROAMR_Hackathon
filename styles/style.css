@@ -27,6 +27,15 @@ body, ul {
     font-family: 'Courier New', Courier, monospace, sans-serif; /* Set the font family for menu links */
 }
 
+/* Style the logo */
+.logo {
+    display: flex;
+    width: 99.513px;
+    height: 35.748px;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Style the neutral section (title and description) */
 .neutral-section {
     background-color: #f4f4f4; /* Light gray background */
